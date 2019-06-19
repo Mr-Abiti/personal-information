@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #999;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mainHead {
+    width: 100%;
+    height: 87vh;
+    position: relative;
+    background: url('../img/header.jpg') no-repeat center center/cover;
+}
+
+.topHead {
+    position: relative;
+    height: 90px;
+}
+
+.tabs {
+    background: rgb(1, 2, 56);
+    padding: 1rem;
+    padding-bottom: 0%;
+    border-bottom: 3px;
+}
+
+.tabs .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container>div {
+    padding: 1.5rem 0;
+}
+
+.tabs .container>div:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-border {
+    border-bottom: #e50914 4pt solid;
+}
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content,
+#tab-4-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
+.fotter {
+    max-width: 95%;
+    margin: auto;
+    padding: 1 2rem;
+}
+
+.footer-cols p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.content-container {
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.content-container-about {
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.contentHead-profile {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.contentHead {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+.profile-pic {
+    width: 25%;
+    float: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.galery {
+    padding-top: 2rem;
+}
+
+#name-on-top {
+    padding: 1rem;
+    size: 2rem;
+}
+
+.detail p {
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3rem;
+    width: 75%;
+    float: left;
+}
+
+#im1 {
+    padding: 0.5rem;
+    padding-bottom: 3rem;
+}
+
+.skils {
+    padding: 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 3rem;
+}
+
+.contact {
+    padding: 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 1rem;
+}
+
+.list1 {
+    width: 50%;
+    float: left;
+}
+
+.list1 {
+    width: 50%;
+    float: left;
+}
+
+.topHead a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: inline;
+    background: #e50914;
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-round {
+    border-radius: 2px;
+}
+
+.btn-lg {
+    background: rgb(9, 39, 206);
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+}
+
+.btn-lg-email {
+    background: rgb(248, 0, 0);
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+}
+
+.floating-left {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
